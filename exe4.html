@@ -1,0 +1,320 @@
+<html>
+   <head>
+       <title>
+         example
+       </title> 
+
+   
+
+
+    </head> 
+   
+    <body style="background-color:#bedbf8">
+
+
+
+
+             <h1> <center><u> EXERCISE  </u></center> </h1>
+          
+
+            <h1> 01. </h1> 
+
+            <h1>  number's square </h1>
+
+    
+            NUMBER :   <input type="text" id="number" size="4" > <br>
+
+             <br>
+
+            SQUARE &nbsp;: <input type="text" id="numberr" size="4" > <br>
+            
+            <br> 
+
+            <button onclick="rkkkkk()"> ok </button>
+
+            <button onclick="rmv1() "> remove </button>
+
+            
+            
+            
+            <p id="squ" style="text-align:center;background-color: teal ; padding:20px; font-weight: bold;"></p>
+            
+            
+            <script>
+            function rkkkkk() {
+              var num1 = document.getElementById("number").value;
+              var num2 = document.getElementById("numberr").value;
+              document.getElementById("squ").innerHTML = parseInt(num1) ** parseInt(num2);
+            }
+
+            function rmv1() {
+             
+              document.getElementById("number").value="";
+              document.getElementById("numberr").value="";
+
+            } 
+            </script>
+       
+
+       <h1> 02. </h1> 
+       
+
+        <h1>  number's  addition </h1>
+
+    
+            NUMBER 1 : <input type="text" id="number1" size="4"> <br>
+
+             <br>
+
+            NUMBER 2 : <input type="text" id="number2" size="4" > <br>
+            
+            <br> 
+
+            <button onclick="rk()"> ok </button>
+
+            <button onclick="rmv2() "> remove </button>
+            
+            
+            <p id="adi" style="text-align:center;background-color: teal ; padding:20px; font-weight: bold;"></p>
+            
+            
+            <script>
+            function rk() {
+              var num1 = document.getElementById("number1").value;
+              var num2 = document.getElementById("number2").value;
+              document.getElementById("adi").innerHTML = parseInt(num1) + parseInt(num2);
+            }
+
+
+            function rmv2() {
+             
+             document.getElementById("number1").value="";
+             document.getElementById("number2").value="";
+
+           } 
+            </script>
+
+
+
+            
+        <h1>  number's multiplication </h1>
+
+    
+        NUMBER 1 :  <input type="text" id="number3" size="4"> <br>
+
+         <br>
+
+        NUMBER 2 : <input type="text" id="number4" size="4"> <br>
+        
+        <br> 
+
+        <button onclick="rkk()"> ok </button>
+
+        <button onclick="rmv3() "> remove </button>
+        
+        
+        <p id="multi" style="text-align:center;background-color: teal ; padding:20px; font-weight: bold;"></p>
+        
+        
+        <script>
+        function rkk() {
+          var num3 = document.getElementById("number3").value;
+          var num4 = document.getElementById("number4").value;
+          document.getElementById("multi").innerHTML = parseInt(num3) * parseInt(num4);
+        }
+
+
+        function rmv3() {
+             
+             document.getElementById("number3").value="";
+             document.getElementById("number4").value="";
+
+           } 
+        </script>
+
+
+
+
+
+
+        <h1>  number's subtraction </h1>
+
+    
+            NUMBER 1 : <input type="text" id="number5" size="4"> <br>
+
+             <br>
+
+            NUMBER 2 : <input type="text" id="number6" size="4"> <br>
+            
+            <br> 
+
+            <button onclick="rkkk()"> ok </button>
+
+            <button onclick="rmv4() "> remove </button>
+            
+            
+            <p id="sub" style="text-align:center;background-color: teal ; padding:20px; font-weight: bold;"></p>
+            
+            
+            <script>
+            function rkkk() {
+              var num5 = document.getElementById("number5").value;
+              var num6 = document.getElementById("number6").value;
+              document.getElementById("sub").innerHTML = parseInt(num5) - parseInt(num6);
+            }
+
+
+            function rmv4() {
+             
+             document.getElementById("number5").value="";
+             document.getElementById("number6").value="";
+
+           } 
+            </script>
+
+
+
+
+
+           
+        <h1>  number's division </h1>
+
+    
+        NUMBER 1 : <input type="text" id="number7" size="4"> <br>
+
+         <br>
+
+        NUMBER 2 : <input type="text" id="number8" size="4"> <br>
+        
+        <br> 
+
+        <button onclick="rkkkk()"> ok </button>
+
+        <button onclick="rmv5() "> remove </button>
+        
+        
+        <p id="divi" style="text-align:center;background-color: teal ; padding:20px; font-weight: bold;"></p>
+        
+        
+        <script>
+        function rkkkk() {
+          var num7 = document.getElementById("number7").value;
+          var num8 = document.getElementById("number8").value;
+          document.getElementById("divi").innerHTML = parseInt(num7) % parseInt(num8);
+        }
+
+
+        function rmv5() {
+             
+             document.getElementById("number7").value="";
+             document.getElementById("number8").value="";
+
+           } 
+        </script>
+
+
+       <h1> 03. Alert </h1>
+
+
+       <center> <button onclick="alt()"> click  </button></center>
+ 
+       <br>
+     
+      <script>
+        function alt()
+         {
+          alert("Hello Wold");
+        }
+      </script>
+
+     <hr style="border: 2px solid  teal;" >
+
+ 
+     <br> <br>
+
+     <h1> 04. CUBOID </h1>
+
+     LENGTH : <input type="text" id="number9" size="4"> <br>
+
+     <br>
+
+    WIDTH &nbsp; : <input type="text" id="number10" size="4"> <br>
+    
+    <br> 
+
+    HEIGHT : <input type="text" id="number11" size="4"> <br>
+    
+    <br> 
+
+
+    <button onclick="kana()"> ok </button>
+
+    <button onclick="rmv6() "> remove </button>
+    
+    
+    <p id="kavu" style="text-align:center;background-color: teal ; padding:20px; font-weight: bold;"></p>
+    
+    
+    <script>
+    function kana() {
+      var num9 = document.getElementById("number9").value;
+      var num10 = document.getElementById("number10").value;
+      var num11 = document.getElementById("number11").value;
+      document.getElementById("kavu").innerHTML = parseInt(num9) * parseInt(num10) * parseInt(num11);
+    }
+
+
+    function rmv6() {
+         
+         document.getElementById("number9").value="";
+         document.getElementById("number10").value="";
+         document.getElementById("number11").value="";
+
+       } 
+    </script>
+
+
+
+
+
+
+      <h1>05. OBJECT</h1>
+
+      <p id="opi" style="text-align:center; font-weight: bold;">  </p>
+
+      <script>
+      
+         var opii ={firstName:"Nimal" , lastName:"Raj", age:"15", city:"Kandy"}
+          
+         document.getElementById("opi").innerHTML='My name is ' + opii.firstName +' ' + opii.lastName + '. ' + "I'am " + opii.age + " " +" year old. I live in" + opii.city +".";
+
+
+       </script> 
+
+        <br>
+        <hr style="border: 2px solid  teal;">
+
+
+
+       
+        <h1> 06. OBJECT</h1>
+
+       <p id="opi66" style="text-align:center; font-weight: bold;">  </p>
+
+       <script>  
+       
+       
+       var opii6 ={courseName:"BIT", courseFee:"Rs 150 000", startDate:"12.06.2018", center:"Our Office" }
+
+      document.getElementById("opi66").innerHTML="Course Name : " + opii6.courseName + "<br>" + " Fourse Fee : " + opii6.courseFee + "<br>" +"Start Date : " + opii6.startDate + "<br>" + "Center : " + opii6.center 
+       
+       </script>
+
+              
+     <br>
+     <hr style="border: 2px solid  teal;">
+       
+       
+    </body>
+
+</html>
